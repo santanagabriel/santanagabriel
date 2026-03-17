@@ -1,69 +1,39 @@
-# 👋 Hey, eu sou o Gabriel Sant'Ana
+# 👋 Hi, I'm Gabriel Sant'Ana
 
-☁️ AWS Solutions Architect | 📊 Data Engineer | 🧠 AI Explorer  
-🇧🇷 Brasil | 🇮🇹 Cidadania Italiana  
+☁️ AWS Solutions Architect | 📊 Data Engineer | 🤖 AI Enthusiast  
 
-Transformo desafios complexos em arquiteturas cloud escaláveis — conectando o mundo enterprise (SAP) com o poder da nuvem.
-
----
-
-## 🚀 Sobre mim
-
-Tenho +20 anos de experiência em tecnologia, passando por consultoria, arquitetura e liderança técnica.
-
-Hoje atuo como **AWS Solutions Architect**, ajudando empresas a:
-- Modernizar ambientes SAP
-- Construir Data Lakes e arquiteturas orientadas a dados
-- Explorar AI/ML na prática
-- Evoluir para arquiteturas cloud-native e serverless
-
-💡 Minha especialidade é unir:
-> **Enterprise + Cloud + Data + AI**
+I design and deliver scalable cloud architectures, helping companies modernize enterprise systems and become data-driven.
 
 ---
 
-## 🧠 O que eu faço hoje
+## 🚀 What I do
 
-- ☁️ Arquitetura de soluções na AWS (end-to-end)
-- 📊 Data Engineering (Data Lakes, ETL/ELT, Analytics)
-- 🔗 Integração SAP → Cloud
-- ⚙️ Serverless & automação
-- 🚀 Provas de conceito (PoCs) em:
-  - Big Data & Analytics
-  - APIs & Integrações
-  - AI/ML
-  - DevOps
+- Architect AWS solutions (end-to-end)
+- Build Data Lakes & modern data platforms
+- Lead cloud transformations (Well-Architected)
+- Develop PoCs in Data, APIs, DevOps and AI/ML
+- Bridge SAP enterprise systems with cloud-native architectures
 
 ---
 
 ## 🛠️ Tech Stack
 
-### ☁️ Cloud & Architecture
-- AWS (Lambda, S3, Glue, Athena, Redshift, Step Functions)
-- AWS Well-Architected Framework
-- Arquitetura distribuída e escalável
+**Cloud**  
+AWS (Lambda, S3, Glue, Athena, Redshift, Step Functions)
 
-### 📊 Data Engineering
-- Python (Pandas, PySpark, Boto3)
-- Data Lakes & Lakehouse
-- ETL / ELT pipelines
-- SQL & Analytics
+**Data**  
+Python (Pandas, PySpark, Boto3) • SQL • ETL/ELT • Data Lakes
 
-### ⚙️ DevOps & Serverless
-- AWS Lambda & API Gateway
-- Terraform / CloudFormation
-- CI/CD pipelines
+**DevOps**  
+Terraform • CloudFormation • CI/CD
 
-### 🔗 Enterprise & Integration
-- SAP (S/4HANA, CRM)
-- SAP on AWS
-- Integração com Salesforce
+**Enterprise**  
+SAP (S/4HANA, CRM) • Salesforce Integration
 
 ---
 
-## 🏆 Certificações
+## 🏆 Certifications
 
-### ☁️ AWS (6x Certified 🔥)
 - AWS Solutions Architect – Professional
 - AWS Machine Learning – Specialty
 - AWS Data Analytics – Specialty
@@ -71,31 +41,16 @@ Hoje atuo como **AWS Solutions Architect**, ajudando empresas a:
 - AWS Solutions Architect – Associate
 - AWS Cloud Practitioner
 
-### 🧩 Outros
-- SAP (várias certificações)
-- Salesforce (Admin, App Builder, Sales & Service Cloud)
++ SAP & Salesforce certifications
 
 ---
 
-## 📈 GitHub Stats
+## 🌎 Connect
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gabrielsantana&show_icons=true&theme=radical" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielsantana&layout=compact&theme=radical" height="150"/>
-</p>
-
----
-
-## 🌎 Onde me encontrar
-
-- 💼 LinkedIn: https://www.linkedin.com/in/gabrielsantana/
-- 📫 Aberto a conversar sobre Cloud, Data e AI
+- LinkedIn: https://www.linkedin.com/in/gabrielsantana/
 
 ---
 
 ## ⚡ Fun fact
 
-Comecei no mundo SAP lá atrás...  
-Hoje ajudo a levar o SAP para arquiteturas modernas na AWS 🚀  
-
-(aka: do ABAP ao Serverless 😄)
+From SAP ABAP to Serverless 🚀
