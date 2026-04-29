@@ -14,58 +14,17 @@ I like the full arc — from scoping an architecture to writing the Glue jobs to
 
 ---
 
-## Recent Projects
+## Experience
 
-### S/4 AI Assistant
-AI-powered chat assistant for querying SAP S/4HANA data in natural language. Users ask business questions — the system autonomously discovers the right OData API, analyzes its schema, executes the query, and returns formatted results. No hardcoded API knowledge, no SAP modifications.
+**AI & Generative AI** — Building AI agents on Amazon Bedrock (AgentCore, Strands Agents SDK) with Claude models. Natural language interfaces over enterprise data, AI-driven test automation with prompt engineering, confidence scoring, and multi-step reasoning.
 
-`Amazon Bedrock AgentCore` `Strands Agents SDK` `Claude Haiku` `WebSocket API Gateway` `SQS FIFO` `Cognito (PKCE)` `CloudFront` `DynamoDB` `Terraform` `Python` `pytest`
+**Data Engineering** — Serverless data lakes with Glue, Step Functions, Athena, and S3. Full-load and delta-load pipelines from SAP OData APIs. Dynamic catalog discovery at runtime. QuickSight dashboards for O2C and P2P analytics.
 
-Key details:
-- 124 OData services in the agent's system prompt — the LLM selects the best API from context
-- Auto-discovery of new APIs from `/$metadata` with smart caching
-- Progressive rendering via chunked WebSocket delivery with markdown tables
-- Full security: JWT auth, DOMPurify XSS prevention, SSRF protection, encryption at rest
-- 40 unit tests covering tools, parser, client, and security
+**SAP Integration** — Deep experience with SAP S/4HANA, OData V2 and V4, Fiori, and UI5. Built custom Amazon AppFlow connectors, automated Fiori test execution with WebDriverIO + wdi5, and designed real-time query systems over 124+ SAP APIs.
 
-### S4Pilot — SAP Fiori Test Automation
-End-to-end test automation for SAP Fiori S/4HANA using generative AI (Amazon Bedrock) to interpret test steps written in natural language and execute them in a real browser via WebDriverIO + wdi5.
+**Serverless & Cloud Architecture** — WebSocket API Gateway, SQS FIFO, Lambda, DynamoDB, Cognito (OAuth2 PKCE), CloudFront. Infrastructure as Code with Terraform, AWS CDK (Python), and CloudFormation. Security-first: JWT auth, encryption at rest, SSRF protection.
 
-`TypeScript` `Amazon Bedrock (Claude Haiku)` `WebDriverIO` `wdi5` `Vitest` `S3` `DynamoDB` `Secrets Manager` `Terraform`
-
-Key details:
-- Reads Excel test scripts from S3, each row is a natural language step (e.g., "Fill the Sales Org field with 1710")
-- AI converts steps into executable commands (`CLICK`, `FILL`, `SELECT`, `NAVIGATE`, `VERIFY`, `CAPTURE`)
-- Multi-layer element resolution: wdi5 native → UI5 API → CSS validation → DOM heuristic → specialized fallbacks
-- Disk-based conversion cache with per-script isolation and automatic invalidation
-- Confidence retry with exponential backoff when AI returns low confidence
-
-### Numen Analytics for SAP (NAS)
-Data lake solution that extracts SAP data into AWS for analytics and AI/ML. Built as an AWS CDK Python project with serverless architecture end to end.
-
-`AWS CDK (Python)` `Glue` `Step Functions` `S3` `Athena` `Glue Data Catalog` `QuickSight`
-
-Key details:
-- Single parameterized Glue job extracts data from SAP S/4HANA via OData V2
-- Dynamic catalog discovery — resolves SAP API paths at runtime (no hardcoded URLs)
-- Step Functions orchestrates full-load and delta-load pipelines
-- QuickSight dashboards: O2C Revenue Analysis, P2P Procurement Analysis
-- Covers Sales, Procurement, Inventory, and Master Data domains
-
-### AppFlow Connector for SAP OData V4
-Custom Amazon AppFlow connector that enables native integration with SAP OData V4 APIs — something AppFlow doesn't support out of the box.
-
-`Python` `Lambda` `Amazon AppFlow` `Terraform` `SAP OData V4`
-
-Key details:
-- Lambda-based connector with configuration, metadata, record, and validation handlers
-- Terraform-managed infrastructure
-- Parses OData V4 `$metadata` XML for dynamic entity/field discovery
-
-### AS2 Server (Pharma EDI)
-Proof of concept for an AS2-compliant server for pharmaceutical EDI data exchange, deployed entirely on AWS with CloudFormation.
-
-`CloudFormation (YAML)` `Lambda` `S3` `Certificates`
+**Testing & Quality** — pytest, Vitest, WebDriverIO. Unit, integration, and E2E test suites. AI-powered test automation that reads natural language scripts and executes them in real browsers.
 
 ---
 
@@ -78,7 +37,6 @@ Languages   Python (Boto3, PySpark, Pandas, httpx, pytest) · TypeScript · SQL 
 Data        Glue · Athena · Redshift · Step Functions · S3 Data Lakes · ETL/ELT
 IaC         Terraform · AWS CDK (Python) · CloudFormation
 Serverless  Lambda · API Gateway (REST + WebSocket) · SQS · DynamoDB · Cognito
-Frontend    CloudFront · SAP Fiori · UI5
 Testing     pytest · Vitest · WebDriverIO · wdi5
 Enterprise  SAP S/4HANA · SAP CRM · SAP OData (V2 + V4) · Salesforce
 ```
